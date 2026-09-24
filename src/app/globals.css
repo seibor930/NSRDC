@@ -1,0 +1,149 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dark: #0E0904;
+  --color-dark-2: #141008;
+  --color-dark-card: #1b1610;
+  --color-crimson: #8C1627;
+  --color-crimson-light: #a31d30;
+  --color-crimson-accent: #B22222;
+  --color-crimson-glow: rgba(140, 22, 39, 0.15);
+  --color-cream: #F5F0E8;
+  --color-off-white: #f5f3f0;
+  --color-gray-light: #e8e5e0;
+  --color-gray-mid: #9a9590;
+  --color-gray-dark: #5a5550;
+  --font-serif: var(--font-playfair), Georgia, serif;
+  --font-sans: var(--font-inter), system-ui, -apple-system, sans-serif;
+}
+
+:root {
+  --dark: #0E0904;
+  --dark-2: #141008;
+  --dark-card: #1b1610;
+  --crimson: #8C1627;
+  --crimson-light: #a31d30;
+  --crimson-accent: #B22222;
+  --crimson-glow: rgba(140, 22, 39, 0.15);
+  --cream: #F5F0E8;
+  --white: #ffffff;
+  --off-white: #f5f3f0;
+  --gray-light: #e8e5e0;
+  --gray-mid: #9a9590;
+  --gray-dark: #5a5550;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-inter), system-ui, sans-serif;
+  color: var(--dark);
+  background-color: #ffffff;
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-playfair), Georgia, serif;
+}
+
+/* Custom Red Accent Line */
+.red-line {
+  width: 48px;
+  height: 3px;
+  background: var(--crimson);
+  margin: 14px 0 20px 0;
+  border-radius: 2px;
+}
+
+.red-line-center {
+  width: 48px;
+  height: 3px;
+  background: var(--crimson);
+  margin: 14px auto 20px auto;
+  border-radius: 2px;
+}
+
+/* Subtle Glassmorphism */
+.glass-nav {
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(232, 229, 224, 0.85);
+}
+
+.glass-dark {
+  background: rgba(14, 9, 4, 0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Interactive Card Hover Effects */
+.hover-lift {
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.2s;
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 36px -10px rgba(14, 9, 4, 0.12);
+  border-color: rgba(140, 22, 39, 0.3);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f5f3f0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d4cfc8;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--crimson);
+}
+
+/* Ambient glow animation */
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1.08);
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 8s ease-in-out infinite;
+}
+
+/* Shimmer animation for loading states */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.shimmer-bg {
+  background: linear-gradient(90deg, #f5f3f0 25%, #e8e5e0 50%, #f5f3f0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.8s infinite;
+}
