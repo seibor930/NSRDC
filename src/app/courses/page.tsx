@@ -375,27 +375,39 @@ export default function CoursesPage() {
                     </div>
                   </div>
 
-                  <div className="p-6 pt-4 border-t border-[#e8e5e0] bg-[#f5f3f0]/50 flex items-center justify-between">
-                    <div>
-                      <span className="text-[10px] uppercase text-[#9a9590] font-bold block">Standard Enrollment</span>
-                      <div className="flex items-baseline gap-1">
-                        <span className="text-base font-bold text-[#0E0904]">₹{course.tuition.toLocaleString()}</span>
-                        <span className="text-[10px] text-emerald-700 font-semibold">Aid Eligible</span>
+                  <div className="p-6 pt-4 border-t border-[#e8e5e0] bg-[#faf8f5] space-y-3.5">
+                    {/* Top Row: Enrollment Rate & Financial Aid Badge */}
+                    <div className="flex items-center justify-between">
+                      <div>
+                        <span className="text-[10px] uppercase tracking-wider text-[#9a9590] font-bold block">
+                          Standard Enrollment
+                        </span>
+                        <div className="flex items-baseline gap-1.5 mt-0.5">
+                          <span className="text-xl font-serif font-bold text-[#0E0904]">
+                            ₹{course.tuition.toLocaleString()}
+                          </span>
+                        </div>
                       </div>
+
+                      <span className="text-[11px] text-emerald-800 font-semibold bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-200/80 shadow-xs">
+                        Aid Eligible
+                      </span>
                     </div>
 
-                    <div className="flex items-center gap-2">
+                    {/* Bottom Row: Two Balanced Action Buttons */}
+                    <div className="grid grid-cols-2 gap-2.5 pt-1">
                       <button
                         onClick={() => openModal(course.slug)}
-                        className="px-3.5 py-1.5 bg-[#8C1627] hover:bg-[#a31d30] text-white rounded-lg text-xs font-semibold transition shadow-sm"
+                        className="w-full py-2.5 bg-[#8C1627] hover:bg-[#a31d30] text-white rounded-xl text-xs font-bold uppercase tracking-wider transition shadow-sm text-center"
                       >
                         Apply Now
                       </button>
                       <Link
                         href={`/courses/${course.slug}`}
-                        className="px-3 py-1.5 border border-[#e8e5e0] hover:bg-white text-xs font-semibold text-[#0E0904] rounded-lg transition"
+                        className="w-full py-2.5 bg-white hover:bg-[#f5f3f0] border border-[#d8d3cb] text-xs font-semibold text-[#0E0904] rounded-xl transition text-center flex items-center justify-center gap-1.5 group"
                       >
-                        Syllabus
+                        <span>Syllabus</span>
+                        <ArrowRight size={13} className="text-[#8C1627] transition-transform group-hover:translate-x-0.5" />
                       </Link>
                     </div>
                   </div>

@@ -4,6 +4,7 @@ import './globals.css';
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
 import { LoadingScreen } from '@/components/LoadingScreen';
+import { RouteProgressBar } from '@/components/RouteProgressBar';
 import { ApplicationModalProvider } from '@/components/ApplicationModal';
 
 const playfair = Playfair_Display({
@@ -51,6 +52,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${playfair.variable} ${inter.variable} scroll-smooth`}>
       <body className="min-h-screen flex flex-col bg-white text-[#0E0904] antialiased">
+        {/* Instant Route Change Loading Bar */}
+        <RouteProgressBar />
+
         <ApplicationModalProvider>
           {/* Intro Loading Animation */}
           <LoadingScreen />
