@@ -66,9 +66,9 @@ export const COURSES: Course[] = [
     "mode": "100% Online Virtual Campus",
     "accreditation": "AISCP Accredited",
     "credits": "10 ECTS Equivalent",
-    "tuition": 490,
+    "tuition": 5000,
     "description": "Leading the Digital Transformation of Talent Management",
-    "overview": "As Human Resources functions play a crucial role in an organisation's overall performance, harnessing Artificial Intelligence has become essential. Many HR teams face inefficiencies, compliance risks, and pressure to deliver strategic value.\n\n\n        \n\n\n        This course demonstrates how AI can create measurable impact, improve efficiency, and support smarter decision-making. You will explore modern, ethical, and performance-driven AI practices — from recruitment and onboarding to employee development and retention.\n\n\n        \n\n\n        The program provides the clarity needed on AI governance and data privacy to foster a future-ready, adaptive HR environment.",
+    "overview": "As Human Resources functions play a crucial role in an organisation's overall performance, harnessing Artificial Intelligence has become essential. Many HR teams face inefficiencies, compliance risks, and pressure to deliver strategic value.\n\nThis course demonstrates how AI can create measurable impact, improve efficiency, and support smarter decision-making. You will explore modern, ethical, and performance-driven AI practices — from recruitment and onboarding to employee development and retention.\n\nThe program provides the clarity needed on AI governance and data privacy to foster a future-ready, adaptive HR environment.",
     "outcomes": [
       {
         "title": "Strategic Integration",
@@ -135,9 +135,9 @@ export const COURSES: Course[] = [
     "mode": "100% Online Virtual Campus",
     "accreditation": "AISCP Accredited",
     "credits": "20 ECTS Equivalent",
-    "tuition": 1190,
+    "tuition": 5000,
     "description": "Evidence-Based Psychological Tools for Transformative Clinical Practice",
-    "overview": "This comprehensive online course provides a deep dive into the mechanisms of Cognitive Behavioural Therapy (CBT). As one of the most effective and research-backed psychological treatments available today, CBT focuses on the relationship between thoughts, feelings, and behaviours.\n\n\n        \n\n\n        This program equips learners with the theoretical knowledge and practical tools necessary to address complex conditions like depression, anxiety, eating disorders, and addiction. You will also explore how CBT techniques can improve communication and strengthen human relationships.\n\n\n        \n\n\n        By the end of this training, you will possess both the clinical and interpersonal skills to apply CBT across a wide range of settings and populations.",
+    "overview": "This comprehensive online course provides a deep dive into the mechanisms of Cognitive Behavioural Therapy (CBT). As one of the most effective and research-backed psychological treatments available today, CBT focuses on the relationship between thoughts, feelings, and behaviours.\n\nThis program equips learners with the theoretical knowledge and practical tools necessary to address complex conditions like depression, anxiety, eating disorders, and addiction. You will also explore how CBT techniques can improve communication and strengthen human relationships.\n\nBy the end of this training, you will possess both the clinical and interpersonal skills to apply CBT across a wide range of settings and populations.",
     "outcomes": [
       {
         "title": "Theoretic Foundations",
@@ -204,9 +204,9 @@ export const COURSES: Course[] = [
     "mode": "100% Online Virtual Campus",
     "accreditation": "AISCP Accredited",
     "credits": "10 ECTS Equivalent",
-    "tuition": 490,
+    "tuition": 5000,
     "description": "Foundations for Organising Local Action and Sustainable Change",
-    "overview": "The Introduction to Community Development course is the first in a four-part series designed to introduce you to the core principles of the community development sector. Using the healthy community model as a springboard, this program teaches you how to identify issues that require action and how to organise community groups to effectively address them.\n\n\n        \n\n\n        Through this online course, you will define the essential features of a community and learn the practical aspects of governance, liability, and group structure. Whether you are a professional or a volunteer, this course provides the skills needed to build teams, ensure inclusive participation, and navigate the inevitable conflicts that arise during group work.",
+    "overview": "The Introduction to Community Development course is the first in a four-part series designed to introduce you to the core principles of the community development sector. Using the healthy community model as a springboard, this program teaches you how to identify issues that require action and how to organise community groups to effectively address them.\n\nThrough this online course, you will define the essential features of a community and learn the practical aspects of governance, liability, and group structure. Whether you are a professional or a volunteer, this course provides the skills needed to build teams, ensure inclusive participation, and navigate the inevitable conflicts that arise during group work.",
     "outcomes": [
       {
         "title": "Core Principles",
@@ -284,9 +284,9 @@ export const COURSES: Course[] = [
     "mode": "100% Online Virtual Campus",
     "accreditation": "AISCP Accredited",
     "credits": "15 ECTS Equivalent",
-    "tuition": 790,
+    "tuition": 15000,
     "description": "Mastering Classroom Dynamics through Behavioural and Cognitive Science",
-    "overview": "Teaching is a complex challenge, especially when navigating the diverse personalities and varying learning levels of a modern classroom. This diploma course empowers educators to fulfil their roles more effectively by exploring the psychological foundations of the learning process.\n\n\n        \n\n\n        You will gain the special skills and compassion required to connect with different students by understanding how they think and feel. From comparing major learning theories like behaviourism and constructivism to addressing the needs of students with sensory or physical disabilities, this program provides the strategies necessary to meet every learner's educational needs.",
+    "overview": "Teaching is a complex challenge, especially when navigating the diverse personalities and varying learning levels of a modern classroom. This diploma course empowers educators to fulfil their roles more effectively by exploring the psychological foundations of the learning process.\n\nYou will gain the special skills and compassion required to connect with different students by understanding how they think and feel. From comparing major learning theories like behaviourism and constructivism to addressing the needs of students with sensory or physical disabilities, this program provides the strategies necessary to meet every learner's educational needs.",
     "outcomes": [
       {
         "title": "Educational Theory",
@@ -358,9 +358,9 @@ export const COURSES: Course[] = [
     "mode": "100% Online Virtual Campus",
     "accreditation": "AISCP Accredited",
     "credits": "15 ECTS Equivalent",
-    "tuition": 790,
+    "tuition": 15000,
     "description": "Strategic Solutions for Climate Change, Sustainability, and Resource Preservation",
-    "overview": "This comprehensive Environmental Management program serves as a critical introduction to the complex interactions between humanity and the natural world. In an era defined by global change, this course equips professionals and students with the technical knowledge to navigate climate processes, sustainability frameworks, and the IPAT equation.\n\n\n        \n\n\n        Participants will explore the science of biogeochemical cycles, analyse the impact of pollutants, and study the environmental regulations governing waste management. From soil sustainability to building a sustainable energy economy, this diploma provides the valuable skills needed to manage physical resources and address modern environmental challenges.",
+    "overview": "This comprehensive Environmental Management program serves as a critical introduction to the complex interactions between humanity and the natural world. In an era defined by global change, this course equips professionals and students with the technical knowledge to navigate climate processes, sustainability frameworks, and the IPAT equation.\n\nParticipants will explore the science of biogeochemical cycles, analyse the impact of pollutants, and study the environmental regulations governing waste management. From soil sustainability to building a sustainable energy economy, this diploma provides the valuable skills needed to manage physical resources and address modern environmental challenges.",
     "outcomes": [
       {
         "title": "Sustainability & Consumption",
@@ -436,9 +436,9 @@ export const COURSES: Course[] = [
     "mode": "100% Online Virtual Campus",
     "accreditation": "AISCP Accredited",
     "credits": "15 ECTS Equivalent",
-    "tuition": 790,
+    "tuition": 15000,
     "description": "Where Tradition Meets Professional Hospitality",
-    "overview": "The global travel trend has shifted from luxury hotels to authentic experiences. Travellers no longer want just a room; they want a story, a local flavour, and a personal connection. Our Diploma in Homestay Management is designed to bridge the gap between owning a house and running a world-class hospitality business.\n\n\n        \n\n\n        We empower you to turn spaces into soulful sanctuaries. With 60% hands-on practical training, this entrepreneurially focused program gives you the skills to start your own business with minimal capital while staying connected to sustainability and responsible tourism.",
+    "overview": "The global travel trend has shifted from luxury hotels to authentic experiences. Travellers no longer want just a room; they want a story, a local flavour, and a personal connection. Our Diploma in Homestay Management is designed to bridge the gap between owning a house and running a world-class hospitality business.\n\nWe empower you to turn spaces into soulful sanctuaries. With 60% hands-on practical training, this entrepreneurially focused program gives you the skills to start your own business with minimal capital while staying connected to sustainability and responsible tourism.",
     "outcomes": [
       {
         "title": "Hospitality Foundations",
@@ -521,9 +521,9 @@ export const COURSES: Course[] = [
     "mode": "100% Online Virtual Campus",
     "accreditation": "AISCP Accredited",
     "credits": "10 ECTS Equivalent",
-    "tuition": 490,
+    "tuition": 5000,
     "description": "Strategic Leadership and Operational Excellence in Global Tourism",
-    "overview": "Are you ready to shape the future of hospitality while building a rewarding career? In today's fast-paced world, the industry faces unique challenges — keeping guests satisfied, managing diverse teams, and maintaining profitability.\n\n\n        \n\n\n        From mastering leadership and human resources to implementing innovative technologies, this program prepares you to lead with purpose. You will dive into every facet of the industry, gaining the financial savvy and crisis management expertise needed to stay ahead of the curve.",
+    "overview": "Are you ready to shape the future of hospitality while building a rewarding career? In today's fast-paced world, the industry faces unique challenges — keeping guests satisfied, managing diverse teams, and maintaining profitability.\n\nFrom mastering leadership and human resources to implementing innovative technologies, this program prepares you to lead with purpose. You will dive into every facet of the industry, gaining the financial savvy and crisis management expertise needed to stay ahead of the curve.",
     "outcomes": [
       {
         "title": "Industry Analysis",
@@ -602,9 +602,9 @@ export const COURSES: Course[] = [
     "mode": "100% Online Virtual Campus",
     "accreditation": "AISCP Accredited",
     "credits": "15 ECTS Equivalent",
-    "tuition": 790,
+    "tuition": 15000,
     "description": "Mastering the Art of Service, Operations, and Global Hospitality Excellence",
-    "overview": "The hospitality sector is a global powerhouse, generating hundreds of billions of dollars annually and serving as a key revenue generator in modern economies. This course is designed to dive deep into this thriving industry, equipping you with the essential skills required for hospitality management.\n\n\n        \n\n\n        From understanding hotel department functions to mastering food and beverage services, this program provides a comprehensive look at how modern hotels and restaurants operate. Whether you are an aspiring learner or a professional seeking career growth, this course will help you excel in a sector that employs millions worldwide.",
+    "overview": "The hospitality sector is a global powerhouse, generating hundreds of billions of dollars annually and serving as a key revenue generator in modern economies. This course is designed to dive deep into this thriving industry, equipping you with the essential skills required for hospitality management.\n\nFrom understanding hotel department functions to mastering food and beverage services, this program provides a comprehensive look at how modern hotels and restaurants operate. Whether you are an aspiring learner or a professional seeking career growth, this course will help you excel in a sector that employs millions worldwide.",
     "outcomes": [
       {
         "title": "Industry Foundations",
@@ -680,9 +680,9 @@ export const COURSES: Course[] = [
     "mode": "100% Online Virtual Campus",
     "accreditation": "AISCP Accredited",
     "credits": "15 ECTS Equivalent",
-    "tuition": 790,
+    "tuition": 15000,
     "description": "Strategic People Management and Organisational Excellence",
-    "overview": "The Effective Human Resource Administration course provides a full understanding of the skills required for HR roles across diverse industries. In an ever-changing marketplace, success depends on an organisation's ability to manage its most valuable asset: people.\n\n\n        \n\n\n        This program teaches you how to motivate employees, oversee productivity, and utilise technology to enhance the workplace. You will explore methods for quality improvement through job redesign, learn the fundamentals of leadership and communication, and navigate human relations in global business.",
+    "overview": "The Effective Human Resource Administration course provides a full understanding of the skills required for HR roles across diverse industries. In an ever-changing marketplace, success depends on an organisation's ability to manage its most valuable asset: people.\n\nThis program teaches you how to motivate employees, oversee productivity, and utilise technology to enhance the workplace. You will explore methods for quality improvement through job redesign, learn the fundamentals of leadership and communication, and navigate human relations in global business.",
     "outcomes": [
       {
         "title": "Conflict & Change",
@@ -753,9 +753,9 @@ export const COURSES: Course[] = [
     "mode": "100% Online Virtual Campus",
     "accreditation": "AISCP Accredited",
     "credits": "10 ECTS Equivalent",
-    "tuition": 490,
+    "tuition": 25000,
     "description": "A Comprehensive Foundation for Global Workplace Safety Standards",
-    "overview": "The AISCP International Certificate in Occupational Safety and Health (ICOSH) provides a sound, broad introduction to the fundamentals of occupational health and safety. Designed for managers, supervisors, and worker representatives, this award equips non-specialists with the underpinning knowledge needed to effectively discharge organisational duties.\n\n\n        \n\n\n        The curriculum is based on international principles and practices, referencing the ILO's Guidelines on Occupational Safety and Health Management Systems (ILO-OSH 2001) and ISO 45001: 2018. By focusing on universal principles rather than specific local laws, the ICOSH ensures a common and consistent high standard for worker safety in an increasingly globalised world.",
+    "overview": "The AISCP International Certificate in Occupational Safety and Health (ICOSH) provides a sound, broad introduction to the fundamentals of occupational health and safety. Designed for managers, supervisors, and worker representatives, this award equips non-specialists with the underpinning knowledge needed to effectively discharge organisational duties.\n\nThe curriculum is based on international principles and practices, referencing the ILO's Guidelines on Occupational Safety and Health Management Systems (ILO-OSH 2001) and ISO 45001: 2018. By focusing on universal principles rather than specific local laws, the ICOSH ensures a common and consistent high standard for worker safety in an increasingly globalised world.",
     "outcomes": [
       {
         "title": "Health and Safety Foundations",
@@ -831,9 +831,9 @@ export const COURSES: Course[] = [
     "mode": "100% Online Virtual Campus",
     "accreditation": "AISCP Accredited",
     "credits": "10 ECTS Equivalent",
-    "tuition": 490,
+    "tuition": 5000,
     "description": "Transforming Management through Virtuous Leadership and Logical Precision",
-    "overview": "If you have always wanted to learn the crucial fundamentals of great, effective leadership, this course is the perfect start. True leadership goes beyond simple management; it involves inspiring others to constantly do better and aim higher for themselves and the team.\n\n\n        \n\n\n        This program explores what good management entails and provides practical methods to refine your decision-making skills. Throughout this certification, you will explore the decision-making process, paying close attention to tools and insights that balance logic and emotion. You will also study the classical Greek philosophical traditions of virtuous leadership, examining how culture influences our view of ethical ideals.\n\n\n        \n\n\n        By the end of this training, you will be prepared to take your leadership from good to great by putting virtuous theory into daily practice.",
+    "overview": "If you have always wanted to learn the crucial fundamentals of great, effective leadership, this course is the perfect start. True leadership goes beyond simple management; it involves inspiring others to constantly do better and aim higher for themselves and the team.\n\nThis program explores what good management entails and provides practical methods to refine your decision-making skills. Throughout this certification, you will explore the decision-making process, paying close attention to tools and insights that balance logic and emotion. You will also study the classical Greek philosophical traditions of virtuous leadership, examining how culture influences our view of ethical ideals.\n\nBy the end of this training, you will be prepared to take your leadership from good to great by putting virtuous theory into daily practice.",
     "outcomes": [
       {
         "title": "Decision Dynamics",
@@ -907,9 +907,9 @@ export const COURSES: Course[] = [
     "mode": "100% Online Virtual Campus",
     "accreditation": "AISCP Accredited",
     "credits": "10 ECTS Equivalent",
-    "tuition": 490,
+    "tuition": 5000,
     "description": "The Vital Bridge to Compassionate Healthcare Excellence",
-    "overview": "Optimal patient care begins at reception and includes scheduling, precise data recording, and timely follow-ups — a process known as Patient Care Coordination. This course explores the essentials of effective coordination, focusing on key elements like patient assessment, advocacy, and education.\n\n\n        \n\n\n        Patient care coordinators serve as the essential bridge between patients and their treatment plans. Beyond administrative tasks, they help patients navigate complex diagnoses and healthcare journeys.\n\n\n        \n\n\n        Enrol to enhance your skills and deliver more coordinated, compassionate patient care that meets global administrative standards.",
+    "overview": "Optimal patient care begins at reception and includes scheduling, precise data recording, and timely follow-ups — a process known as Patient Care Coordination. This course explores the essentials of effective coordination, focusing on key elements like patient assessment, advocacy, and education.\n\nPatient care coordinators serve as the essential bridge between patients and their treatment plans. Beyond administrative tasks, they help patients navigate complex diagnoses and healthcare journeys.\n\nEnrol to enhance your skills and deliver more coordinated, compassionate patient care that meets global administrative standards.",
     "outcomes": [
       {
         "title": "The Coordinator Identity",
@@ -971,9 +971,9 @@ export const COURSES: Course[] = [
     "mode": "100% Online Virtual Campus",
     "accreditation": "AISCP Accredited",
     "credits": "15 ECTS Equivalent",
-    "tuition": 790,
+    "tuition": 15000,
     "description": "Leading Excellence in Clinical Care and Healthcare Education",
-    "overview": "The nursing profession has evolved significantly, transforming the modern nurse into a vital team leader and healthcare teacher. This online course provides an overview of the most critical elements of a nursing leader's daily role.\n\n\n        \n\n\n        You will explore the skills, techniques, and leadership approaches required to improve healthcare delivery and manage diverse medical teams. From mastering communication with patients with sensory impairments to understanding the complexities of the surgical cycle, this program boosts your care management capabilities.",
+    "overview": "The nursing profession has evolved significantly, transforming the modern nurse into a vital team leader and healthcare teacher. This online course provides an overview of the most critical elements of a nursing leader's daily role.\n\nYou will explore the skills, techniques, and leadership approaches required to improve healthcare delivery and manage diverse medical teams. From mastering communication with patients with sensory impairments to understanding the complexities of the surgical cycle, this program boosts your care management capabilities.",
     "outcomes": [
       {
         "title": "Team Leadership",
@@ -1046,9 +1046,9 @@ export const COURSES: Course[] = [
     "mode": "100% Online Virtual Campus",
     "accreditation": "AISCP Accredited",
     "credits": "15 ECTS Equivalent",
-    "tuition": 790,
+    "tuition": 15000,
     "description": "Mastering the Essentials of Clinical Support and Bedside Excellence",
-    "overview": "Nurses and nursing teams play a vital role in patient care within modern healthcare settings. Today's nurse is a highly trained professional working across diverse environments, from community nursing to surgery. This comprehensive course equips you with an understanding of human needs, physical examinations, diet, and vital signs.\n\n\n        \n\n\n        The program focuses on delivering high-quality care to patients, including the elderly, by mastering equipment usage, hygiene standards, and safety protocols. Enrol to bridge the gap between medical knowledge and compassionate, hands-on patient support.",
+    "overview": "Nurses and nursing teams play a vital role in patient care within modern healthcare settings. Today's nurse is a highly trained professional working across diverse environments, from community nursing to surgery. This comprehensive course equips you with an understanding of human needs, physical examinations, diet, and vital signs.\n\nThe program focuses on delivering high-quality care to patients, including the elderly, by mastering equipment usage, hygiene standards, and safety protocols. Enrol to bridge the gap between medical knowledge and compassionate, hands-on patient support.",
     "outcomes": [
       {
         "title": "The Nursing Identity",
@@ -1131,9 +1131,9 @@ export const COURSES: Course[] = [
     "mode": "100% Online Virtual Campus",
     "accreditation": "AISCP Accredited",
     "credits": "15 ECTS Equivalent",
-    "tuition": 790,
+    "tuition": 15000,
     "description": "Empowering Educators to Inspire, Motivate, and Master the Classroom",
-    "overview": "Being a teacher takes more than just accumulated knowledge; it requires the ability to effectively communicate, motivate, and plan. This course is designed to transform you into an effective trainer or teacher by providing the tools needed to stimulate student thinking and manage a dynamic classroom environment.\n\n\n        \n\n\n        You will learn to navigate the complexities of verbal and non-verbal communication, develop measurable instructional goals, and apply psychological theories of motivation. From curriculum frameworks to behavioural management, this program bridges the gap between telling and inspiring.",
+    "overview": "Being a teacher takes more than just accumulated knowledge; it requires the ability to effectively communicate, motivate, and plan. This course is designed to transform you into an effective trainer or teacher by providing the tools needed to stimulate student thinking and manage a dynamic classroom environment.\n\nYou will learn to navigate the complexities of verbal and non-verbal communication, develop measurable instructional goals, and apply psychological theories of motivation. From curriculum frameworks to behavioural management, this program bridges the gap between telling and inspiring.",
     "outcomes": [
       {
         "title": "Classroom Communication",
@@ -1203,9 +1203,9 @@ export const COURSES: Course[] = [
     "mode": "100% Online Virtual Campus",
     "accreditation": "AISCP Accredited",
     "credits": "15 ECTS Equivalent",
-    "tuition": 790,
+    "tuition": 15000,
     "description": "Navigating Global Opportunities in a Trillion-Dollar Industry",
-    "overview": "Tourism is of immense importance in the modern economy, generating over one trillion dollars in revenue annually across the globe. This diploma course guides you through the vast career opportunities awaiting qualified individuals interested in this exciting and evolving field.\n\n\n        \n\n\n        The curriculum explores the journey of travel from ancient times to the modern era, analysing the critical factors — such as accommodation, transport, and motivation — that influence global movement. Whether you are interested in airline operations, cruise services, or digital travel agencies, this course provides the exact knowledge you need.",
+    "overview": "Tourism is of immense importance in the modern economy, generating over one trillion dollars in revenue annually across the globe. This diploma course guides you through the vast career opportunities awaiting qualified individuals interested in this exciting and evolving field.\n\nThe curriculum explores the journey of travel from ancient times to the modern era, analysing the critical factors — such as accommodation, transport, and motivation — that influence global movement. Whether you are interested in airline operations, cruise services, or digital travel agencies, this course provides the exact knowledge you need.",
     "outcomes": [
       {
         "title": "Historic Foundations",
@@ -1282,9 +1282,9 @@ export const COURSES: Course[] = [
     "mode": "100% Online Virtual Campus",
     "accreditation": "AISCP Accredited",
     "credits": "10 ECTS Equivalent",
-    "tuition": 490,
+    "tuition": 15000,
     "description": "A Professional Certification Program — Circular Economy Specialist",
-    "overview": "Meghalaya generates approximately 350+ tons of waste daily. The NSDRC mission is to bridge the gap between environmental crisis and economic opportunity. We don't just teach you how to manage waste; we teach you how to engineer a profitable, sustainable business ecosystem.\n\n\n        \n\n\n        This 12-week hybrid program covers the full value chain — from the science of waste transformation and pyrolysis engineering to governance, data compliance, and financial modelling. With 20% on-site practical lab training at field units in Shillong, this is a deeply grounded, real-world course.",
+    "overview": "Meghalaya generates approximately 350+ tons of waste daily. The NSDRC mission is to bridge the gap between environmental crisis and economic opportunity. We don't just teach you how to manage waste; we teach you how to engineer a profitable, sustainable business ecosystem.\n\nThis 12-week hybrid program covers the full value chain — from the science of waste transformation and pyrolysis engineering to governance, data compliance, and financial modelling. With 20% on-site practical lab training at field units in Shillong, this is a deeply grounded, real-world course.",
     "outcomes": [
       {
         "title": "Waste Science",
@@ -1350,7 +1350,7 @@ export const COURSES: Course[] = [
       "image": "/assets/images/Faculty/3.png"
     }
   }
-];
+];;
 
 export function getCourseBySlug(slug: string): Course | undefined {
   return COURSES.find(c => c.slug.toLowerCase() === slug.toLowerCase());

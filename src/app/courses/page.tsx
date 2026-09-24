@@ -377,9 +377,9 @@ export default function CoursesPage() {
 
                   <div className="p-6 pt-4 border-t border-[#e8e5e0] bg-[#f5f3f0]/50 flex items-center justify-between">
                     <div>
-                      <span className="text-[10px] uppercase text-[#9a9590] font-bold block">Flat-Rate Tuition</span>
+                      <span className="text-[10px] uppercase text-[#9a9590] font-bold block">Standard Enrollment</span>
                       <div className="flex items-baseline gap-1">
-                        <span className="text-base font-bold text-[#0E0904]">${course.tuition}</span>
+                        <span className="text-base font-bold text-[#0E0904]">₹{course.tuition.toLocaleString()}</span>
                         <span className="text-[10px] text-emerald-700 font-semibold">Aid Eligible</span>
                       </div>
                     </div>

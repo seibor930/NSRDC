@@ -117,9 +117,17 @@ export function CourseDetailClient({ course }: { course: Course }) {
               <div className="border-b-2 border-[#8C1627] pb-2 inline-block">
                 <h2 className="font-serif text-2xl font-bold text-[#0E0904]">Course Overview</h2>
               </div>
-              <p className="text-sm sm:text-base text-[#3a3020] leading-relaxed whitespace-pre-line">
-                {course.overview}
-              </p>
+              <div className="space-y-4 text-sm sm:text-base text-[#3a3020] leading-relaxed">
+                {course.overview
+                  .split(/\n\s*\n/)
+                  .map(p => p.trim())
+                  .filter(Boolean)
+                  .map((paragraph, idx) => (
+                    <p key={idx}>
+                      {paragraph}
+                    </p>
+                  ))}
+              </div>
             </section>
 
             {/* 2. What You Will Learn (Outcomes Grid) */}
@@ -295,19 +303,39 @@ export function CourseDetailClient({ course }: { course: Course }) {
                 </span>
               </div>
 
-              {/* Tuition Price */}
+              {/* Tuition Price matching original website */}
               <div>
-                <span className="text-xs text-white/50 block">Lock-in Flat Rate</span>
-                <div className="flex items-baseline gap-2 mt-1">
-                  <span className="font-serif text-4xl font-extrabold text-white">
-                    ${course.tuition}
-                  </span>
-                  <span className="text-xs text-white/50">USD / total</span>
+                <div className="font-serif text-3xl sm:text-4xl font-extrabold text-white">
+                  ₹{course.tuition.toLocaleString()}
                 </div>
-                <span className="text-[11px] text-emerald-400 block mt-1">
-                  ✓ Guaranteed zero graduation or assessment fees
+                <span className="text-xs text-white/60 block mt-1">
+                  Standard Enrollment · All materials included
                 </span>
               </div>
+
+              {/* Standard Features from original website */}
+              <ul className="space-y-2.5 border-t border-b border-white/10 py-4 text-xs text-white/80">
+                <li className="flex items-start gap-2.5">
+                  <CheckCircle2 size={15} className="text-[#a31d30] shrink-0 mt-0.5" />
+                  <span>Full certification upon completion</span>
+                </li>
+                <li className="flex items-start gap-2.5">
+                  <CheckCircle2 size={15} className="text-[#a31d30] shrink-0 mt-0.5" />
+                  <span>All training materials & resources</span>
+                </li>
+                <li className="flex items-start gap-2.5">
+                  <CheckCircle2 size={15} className="text-[#a31d30] shrink-0 mt-0.5" />
+                  <span>Self-paced — no rigid deadlines</span>
+                </li>
+                <li className="flex items-start gap-2.5">
+                  <CheckCircle2 size={15} className="text-[#a31d30] shrink-0 mt-0.5" />
+                  <span>Year-round enrollment available</span>
+                </li>
+                <li className="flex items-start gap-2.5">
+                  <CheckCircle2 size={15} className="text-[#a31d30] shrink-0 mt-0.5" />
+                  <span>AISCP accredited & recognised</span>
+                </li>
+              </ul>
 
               {/* Opportunity Fund Alert */}
               <div className="p-3.5 rounded-2xl bg-white/5 border border-white/10 space-y-1">
